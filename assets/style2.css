@@ -1,0 +1,184 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 960px;
+	height: auto;
+	margin-left: 270px;	 
+	background-image: url("images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.wholething {
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+}
+
+.Container {
+	background-color: #ffffff;
+	margin-right: 0px;
+	width: 650px;
+	height: 35px;
+}
+
+#myPic {
+	float: left;
+	margin-right: 15px;
+}
+
+#header {
+	background-color: #4aaaa5;
+	height: 50px;
+	margin-top: 0 auto;
+	width: 200px;
+	position: relative;
+}
+
+#myPic{
+	
+	float: left;
+	margin-right: 20px;
+}
+
+#mainP {
+	background-color: #ffffff;
+	width: 500px;
+	height: 500px;
+	margin-right: -200px;
+	right: 30px;
+}
+
+.footer {
+	background-color: #666666;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+	margin-top: 35px;
+}
+
+.Container2 {
+	background-color: #ffffff;
+	float: right;
+	width: 270px;
+	height: 100px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+#links {
+	background-color: #ffffff;
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	float: right;	
+	margin-left: 435px;
+	text-underline-position: none;
+}
+
+#Connect {
+	background-color: #ffffff;
+	width: 270px;
+	float: right;
+}
+
+#contact {
+	float: left;
+	background-color: #ffffff;
+	margin-right: 25px;
+	margin-top: 0 auto;
+	width: 650px;
+}
+
+#Box1 {
+	position: relative;
+	float: left;
+	margin: 25px 25px 25px 25px;
+}
+
+#Box2 {
+	position: relative;
+	float: left;
+	margin: 25px 25px 25px 25px;
+}
+
+#Box3 {
+	position: relative;
+	float: left;
+	margin: 25px 25px 25px 25px;	
+}
+
+#Box4 {
+	position: relative;
+	float: left;
+	margin: 25px 25px 25px 25px;	
+}
+
+#Box5 {
+	position: relative;
+	float: left;
+	margin: 25px 25px 25px 25px;	
+}
+
+.clearfix::after {
+    content: "";
+    clear: all;
+    display: grid;
+}
+
+.namebox1 {
+	position: absolute;
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	margin-right: -50px;
+	margin-top: 100px;
+}
+
+.namebox2 {
+	position: absolute;
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+}
+
+.namebox3 {
+	position: absolute;
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+}
+
+.namebox4 {
+	position: absolute;
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+}
+
+.namebox5 {
+	position: absolute;
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+}
+
+h1 { 
+	color: #ffffff;
+
+}
+
+h2 {
+	color: #4aaaa5;
+
+}
+ 
+ h1 h2 h3 h4 h5 h6 {
+ 	font-family: 'Georgia', Times, Times New Roman, serif;
+ }
