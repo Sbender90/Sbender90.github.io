@@ -104,13 +104,12 @@
 .wholething {
 	width: 1200px;
 	height: 500px;
-	background-image: url("assets/images/background.png");
 }
 
 
 body {
-	background-image: url("D:KU/Sbender90.github.io/assets/images/background.png");
-
+	background-image: url("images/background.png");
+	/*background-image: url("background.png")*/
 }
 
 a {
