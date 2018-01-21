@@ -9,35 +9,27 @@ body {
 }
 
 .wholething {
-	width: 1200px;
+	width: 100% ;
 	height: 500px;
 	margin: auto;
 }
 
-.Container {
-	background-color: #ffffff;
-	margin-right: 0px;
-	width: 650px;
-	height: 35px;
-}
-
-#myPic {
-	float: left;
-	margin-right: 15px;
-}
-
 #header {
 	background-color: #4aaaa5;
-	height: 50px;
-	margin-top: 0 auto;
-	width: 200px;
+	height: 55px;
+	margin-top: -15px;
+	width: 250px;
+	text-align: center;
 	position: relative;
+	padding-top: 25px;
 }
 
-#myPic{
-	
-	float: left;
-	margin-right: 20px;
+.header-bar {
+	width: 100%;
+	height: 50px;
+	padding: 15px;
+	text-align: center;
+	background-color: #ffffff;
 }
 
 #mainP {
@@ -53,34 +45,46 @@ body {
 	height: 50px;
 	width: 100%;
 	text-align: center;
-	padding-bottom: 50px;
+	padding: 25px;
 	margin-top: 35px;
-}
-
-.Container2 {
-	background-color: #ffffff;
-	float: right;
-	width: 270px;
-	height: 100px;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
 }
 
 #links {
 	background-color: #ffffff;
 	position: absolute;
-	width: 200px;
+	width: 300px;
 	text-align: center;
 	float: right;	
-	margin-left: 435px;
-	text-underline-position: none;
+	margin: -40px 632px;
+	
+	font-size: 20px;
+}
+
+#social-media {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+
 }
 
 #Connect {
 	background-color: #ffffff;
 	width: 270px;
 	float: right;
+	height: 100px;
+
+}
+
+.box-Connect2 {
+	float: right;
+	position: relative;
+	text-align: center;
+	background-color: #ffffff;
+	height: 150px;
+	width: 270px;
+	margin: -830px -38px -22px -50px;
+	border-style: solid;
+	border-color: #dddddd;
 }
 
 #contact {
@@ -134,7 +138,7 @@ body {
 	width: 200px;
 	text-align: center;
 	margin-right: -50px;
-	margin-top: 100px;
+	margin-top: 120px;
 }
 
 .namebox2 {
@@ -143,6 +147,8 @@ body {
 	height: 50px;
 	width: 200px;
 	text-align: center;
+	margin-right: -50px;
+	margin-top: 120px;
 }
 
 .namebox3 {
@@ -151,6 +157,8 @@ body {
 	height: 50px;
 	width: 200px;
 	text-align: center;
+	margin-right: -50px;
+	margin-top: 120px;	
 }
 
 .namebox4 {
@@ -159,6 +167,8 @@ body {
 	height: 50px;
 	width: 200px;
 	text-align: center;
+	margin-right: -50px;
+	margin-top: 120px;	
 }
 
 .namebox5 {
@@ -167,18 +177,48 @@ body {
 	height: 50px;
 	width: 200px;
 	text-align: center;
+	margin-right: -50px;
+	margin-top: 120px;	
 }
 
-h1 { 
-	color: #ffffff;
+.Box-box {
+	background-color: #ffffff;
+	width: 650px;
+	height: 800px;
+	margin: 25px  0px  0px;
+	border-color: #dddddd;
+	border-style: solid;
+	padding: 15px;
+}
 
+.wholething {
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+}
+
+
+h1 {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
 }
 
 h2 {
 	color: #4aaaa5;
-
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: 2px solid;
+	border-color: #dddddd;
+	padding-bottom: 10px
 }
  
  h1 h2 h3 h4 h5 h6 {
  	font-family: 'Georgia', Times, Times New Roman, serif;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: #e1e1e1;
  }
